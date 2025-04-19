@@ -1,11 +1,11 @@
 .DS_Store
 .idea
 nbproject
-/var/*
-!/var/labels
-/vendor
-/public/*
-!/public/.htaccess
 /config/system/additional.php
 /public/.htaccess
-/sql/
+/vendor
+/sql/*
+/var/*
+/public/*
+!/var/labels
+!/public/htaccess

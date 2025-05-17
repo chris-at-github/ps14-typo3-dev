@@ -9,3 +9,4 @@ nbproject
 /public/*
 !/var/labels
 !/public/htaccess
+/packages

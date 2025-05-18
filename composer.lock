@@ -813,6 +813,76 @@
             "time": "2025-04-09T20:32:01+00:00"
         },
         {
+            "name": "friendsoftypo3/tt-address",
+            "version": "9.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfTYPO3/tt_address.git",
+                "reference": "b39234cf182640936ea6ea040d452f92fd3c7ddd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfTYPO3/tt_address/zipball/b39234cf182640936ea6ea040d452f92fd3c7ddd",
+                "reference": "b39234cf182640936ea6ea040d452f92fd3c7ddd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "symfony/console": "^5.4 || ^6.0 || ^7.0",
+                "typo3/cms-core": "^12.4.16 || ^13.2"
+            },
+            "replace": {
+                "typo3-ter/tt-address": "self.version"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3",
+                "kubawerlos/php-cs-fixer-custom-fixers": "^3.21",
+                "phpspec/prophecy": "^1.19 || ^2",
+                "phpunit/phpunit": "^10.5.45",
+                "typo3/cms-composer-installers": "^3.1.3 || 4.0.0-RC1 || ^5.0",
+                "typo3/cms-install": "^12.4.2 || ^13.2",
+                "typo3/coding-standards": "^0.5.3",
+                "typo3/testing-framework": "^8.0.9",
+                "webmozart/assert": "^1.11.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "app-dir": ".Build",
+                    "web-dir": ".Build/public",
+                    "extension-key": "tt_address"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FriendsOfTYPO3\\TtAddress\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "tt_address Development Team",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Displays a list of addresses from an address table on the page.",
+            "homepage": "https://extensions.typo3.org/extension/tt_address",
+            "keywords": [
+                "addresses",
+                "extension",
+                "typo3"
+            ],
+            "support": {
+                "docs": "https://docs.typo3.org/p/friendsoftypo3/tt-address/main/en-us/",
+                "issues": "https://github.com/FriendsOfTYPO3/tt_address/issues",
+                "source": "https://github.com/FriendsOfTYPO3/tt_address"
+            },
+            "time": "2025-04-03T14:59:54+00:00"
+        },
+        {
             "name": "guzzlehttp/guzzle",
             "version": "7.9.3",
             "source": {
@@ -1558,6 +1628,7 @@
                 "reference": "b42e57bbcf53d354439f96895d0c7015051d13ae"
             },
             "require": {
+                "friendsoftypo3/tt-address": "^9.0.",
                 "typo3/cms-core": "^13.4"
             },
             "type": "typo3-cms-extension",
@@ -1593,11 +1664,11 @@
         },
         {
             "name": "ps14/ps14_site",
-            "version": "dev-master",
+            "version": "dev-13.0.0-dev",
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_site",
-                "reference": "e09a794634ebab843f22823e2be6a21b136d5a66"
+                "reference": "0986e18321ad10384bbfd68d636e6044a3a34f71"
             },
             "require": {
                 "typo3/cms-core": "^13.4"

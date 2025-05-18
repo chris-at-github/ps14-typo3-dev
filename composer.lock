@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01ca47f386c8ff01259b050cbd2c5bba",
+    "content-hash": "18574af1efb89b25e0359930ac64cd60",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1551,11 +1551,11 @@
         },
         {
             "name": "ps14/ps14_foundation",
-            "version": "dev-master",
+            "version": "dev-13.0.0-dev",
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_foundation",
-                "reference": "48f7cb53dc79f83f2258d2f7c03322741ee39770"
+                "reference": "b42e57bbcf53d354439f96895d0c7015051d13ae"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1582,6 +1582,48 @@
             ],
             "description": "Basic TYPO3 extension extending the core functionality of TYPO3 and providing essential website functionalities.",
             "homepage": "https://ps14.de/",
+            "keywords": [
+                "TYPO3",
+                "extension"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "ps14/ps14_site",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/ps14_site",
+                "reference": "e09a794634ebab843f22823e2be6a21b136d5a66"
+            },
+            "require": {
+                "typo3/cms-core": "^13.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "ps14_site"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ps14\\Site\\": "Classes"
+                }
+            },
+            "license": [
+                "closed"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Pschorr",
+                    "email": "pschorr.christian@gmail.com"
+                }
+            ],
+            "description": "TYPO3 extension for customizing a TYPO3 installation to meet the specific requirements of a customer's website.",
+            "homepage": "http://ps14.de/",
             "keywords": [
                 "TYPO3",
                 "extension"
@@ -6923,7 +6965,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ps14/ps14_foundation": 20
+        "ps14/ps14_foundation": 20,
+        "ps14/ps14_site": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

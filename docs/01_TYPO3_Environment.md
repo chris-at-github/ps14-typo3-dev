@@ -1,0 +1,10 @@
+- [x] Umwandlung des Dokuments in eine MD Datei und Einbindung in das Haupt-Repository
+- [x] lokale Installation von Foundation und Sitepackage
+- [ ] Vereinfachung TYPO3 Extensions
+  - [ ] Entfernung von tt_address
+  - [ ] Entfernung von unnötigen Modulen
+- [ ] Einbindung von Vite und der Vite Asset Collector Extension
+- [ ] Umstellung der Einbindung von CSS / JS über Fluid-Layouts
+- [ ] Einrichtung Linter für JS, (S) CSS
+- [ ] Erstellung der ps14_prototype Extension und Erstellung der Basis-Komponenten
+- [ ] Erstellung DDEV Commands für den Abzug einer kompletten TYPO3 Instanz

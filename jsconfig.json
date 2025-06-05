@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@site/*": ["packages/ps14_site/Resources/Private/Source/Scss/*"]
+		}
+	}
+}

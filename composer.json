@@ -14,6 +14,7 @@
 		"sort-packages": true
 	},
 	"require": {
+		"praetorius/vite-asset-collector": "^1.14",
 		"ps14/ps14_foundation": "@dev",
 		"ps14/ps14_site": "@dev",
 		"typo3/cms-backend": "^13.4",

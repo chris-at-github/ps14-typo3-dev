@@ -1,7 +1,14 @@
 {
+  "scripts": {
+    "lint:css": "stylelint \"packages/ps14_site/Resources/Private/Source/**/*.{scss,css,sass}\""
+  },
   "devDependencies": {
     "sass-embedded": "^1.89.1",
+    "stylelint": "^16.21.0",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "stylelint-scss": "^6.12.1",
     "vite": "^6.3.5",
+    "vite-plugin-checker": "^0.9.3",
     "vite-plugin-typo3": "^2.0.1"
   }
 }

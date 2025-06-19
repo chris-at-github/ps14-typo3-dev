@@ -10,3 +10,4 @@ nbproject
 !/var/labels
 !/public/htaccess
 /packages
+/node_modules/

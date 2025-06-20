@@ -6,7 +6,7 @@
   - [x] Fix stylelint errors (manually)
   - [x] ~~Add stylelint to vite.config.js~~
 - [ ] Text Styles
-  - [ ] Create link styles
+  - [x] Create link styles
   - [ ] Create list styles
   - [ ] Create a npm script to generate the icon font and import it directly into Sass as inline code (https://chatgpt.com/c/6841b155-1c68-8000-b02d-1815ea3c4100)
   - [ ] Create link styles for external and download links

@@ -1,10 +1,10 @@
 # Roadmap
 
 ## Version 13.0.1
-- [ ] Stylelint
+- [x] Stylelint
   - [x] Fix stylelint errors (with --fix option)
   - [x] Fix stylelint errors (manually)
-  - [ ] Add stylelint to vite.config.js
+  - [x] ~~Add stylelint to vite.config.js~~
 - [ ] Text Styles
   - [ ] Create link styles
   - [ ] Create list styles

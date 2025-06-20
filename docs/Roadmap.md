@@ -3,7 +3,7 @@
 ## Version 13.0.1
 - [ ] Stylelint
   - [x] Fix stylelint errors (with --fix option)
-  - [ ] Fix stylelint errors (manually)
+  - [x] Fix stylelint errors (manually)
   - [ ] Add stylelint to vite.config.js
 - [ ] Text Styles
   - [ ] Create link styles

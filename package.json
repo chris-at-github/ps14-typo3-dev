@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "lint:css": "stylelint \"packages/ps14_site/Resources/Private/Source/**/*.{scss,css,sass}\""
+    "lint:css": "stylelint \"packages/ps14_site/Resources/Private/Source/**/*.{scss,css,sass}\"",
+    "lint:css-fix": "stylelint \"packages/ps14_site/Resources/Private/Source/**/*.{scss,css,sass}\" --fix"
   },
   "devDependencies": {
     "sass-embedded": "^1.89.1",

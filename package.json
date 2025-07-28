@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "lint:css": "stylelint \"packages/ps14_site/Resources/Private/Source/**/*.{scss,css,sass}\"",
     "lint:css-fix": "stylelint \"packages/ps14_site/Resources/Private/Source/**/*.{scss,css,sass}\" --fix"
@@ -9,6 +10,7 @@
     "stylelint-config-standard-scss": "^15.0.1",
     "stylelint-scss": "^6.12.1",
     "vite": "^6.3.5",
-    "vite-plugin-typo3": "^2.0.1"
+    "vite-plugin-typo3": "^2.0.1",
+    "webfont": "^11.2.26"
   }
 }

@@ -1,14 +1,16 @@
-import { webfont } from 'webfont';
 import { writeFile, mkdir } from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url'; // Import fileURLToPath from the 'url' module
+import { fileURLToPath } from 'url';
+import webfont from "webfont"; // Import the entire webfont module
 
-// Correctly define __dirname for ES module scope
+// Access the webfont function from the imported module.
+// This handles different export styles (default and direct).
+const __webfont = webfont.default || webfont;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-const result = await webfont({
-	files: 'packages/ps14_site/Resources/Private/Source/Svg/Font/*.svg',
+//
+const result = await __webfont({
+	files: 'packages/ps14_site/Resources/Private/Source/Svg/Font/**/*.svg',
 	fontName: 'iconfont',
 	formats: ['woff2'],
 	dest: 'test/fonts',

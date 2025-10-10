@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2702fc180bc713fc3ae9607dc4609d68",
+    "content-hash": "587ae6d8fb6e213b9faddbc90891789b",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1647,40 +1647,6 @@
                 "TYPO3",
                 "extension"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
-        },
-        {
-            "name": "ps14/ps14_rookie",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "./packages/ps14_rookie",
-                "reference": "a4696f7c62522041f61ca7d299868aa6103875c4"
-            },
-            "require": {
-                "typo3/cms-core": "^13.4"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "extension-key": "ps14_rookie"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ps14Rookie\\": "Classes/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Christian Pschorr",
-                    "email": "pschorr.christian@gmail.com"
-                }
-            ],
-            "description": "Rookie: A feature-minimal TYPO3 extension designed as a hands-on sandbox for testing Extbase basics and exploring fundamental TYPO3 APIs.",
             "transport-options": {
                 "symlink": true,
                 "relative": true
@@ -7190,7 +7156,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "ps14/ps14_foundation": 20,
-        "ps14/ps14_rookie": 20,
         "ps14/ps14_site": 20
     },
     "prefer-stable": false,

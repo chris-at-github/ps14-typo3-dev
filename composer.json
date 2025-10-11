@@ -16,6 +16,7 @@
 	"require": {
 		"praetorius/vite-asset-collector": "^1.14",
 		"ps14/ps14_foundation": "@dev",
+		"ps14/ps14_prototype": "@dev",
 		"ps14/ps14_site": "@dev",
 		"typo3/cms-backend": "^13.4",
 		"typo3/cms-belog": "^13.4",

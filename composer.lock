@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdf73413127ea41c816af2a8e668f06b",
+    "content-hash": "b7c6bb6d5186c2767080de0f03439ed7",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1694,12 +1694,58 @@
             "time": "2025-02-18T09:35:58+00:00"
         },
         {
+            "name": "ps14/ps14_component",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/ps14_component",
+                "reference": "363a0888c56ba724bb369e2a4f150ec403348a8c"
+            },
+            "require": {
+                "typo3/cms-core": "^13.4"
+            },
+            "suggest": {
+                "ps14/ps14_site": "^2.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "ps14_component"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ps14\\Component\\": "Classes"
+                }
+            },
+            "license": [
+                "closed"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Pschorr",
+                    "email": "pschorr.christian@gmail.com"
+                }
+            ],
+            "description": "TYPO3 extension for provide basic (react) components",
+            "homepage": "http://ps14.de/",
+            "keywords": [
+                "TYPO3",
+                "components",
+                "extension"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "ps14/ps14_foundation",
             "version": "dev-13.0.0-dev",
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_foundation",
-                "reference": "b04df31dbf548fbe9ad5d8ad5f46502bb6465185"
+                "reference": "a134d814d6102b2f2ffec92da7fc16561dc12ae0"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1741,7 +1787,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_prototype",
-                "reference": "54858995524171552057fc80f9588764dd5414ae"
+                "reference": "d04f89e755921dc2dfa297b22c29e0e31d0e0ad4"
             },
             "require": {
                 "friendsoftypo3/content-blocks": "^1.0",
@@ -1787,7 +1833,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_site",
-                "reference": "b381f9023138d4ab91abbded845a47e64811c9d8"
+                "reference": "b1e6332cda5a447384b1b13c8e4b531c67644071"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -7284,6 +7330,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "ps14/ps14_component": 20,
         "ps14/ps14_foundation": 20,
         "ps14/ps14_prototype": 20,
         "ps14/ps14_site": 20

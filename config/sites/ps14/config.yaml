@@ -56,5 +56,4 @@ routes:
       Sitemap: https://ps14-typo3-dev.ddev.site/de/sitemap.xml
       Sitemap: https://ps14-typo3-dev.ddev.site/en/sitemap.xml
 dependencies:
-  - foundation/meta
   - foundation/layout

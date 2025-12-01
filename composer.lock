@@ -1695,11 +1695,11 @@
         },
         {
             "name": "ps14/ps14_component",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_component",
-                "reference": "363a0888c56ba724bb369e2a4f150ec403348a8c"
+                "reference": "5458a0a24ed5f12ab2373a872e5f09ed3f657139"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1745,7 +1745,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_foundation",
-                "reference": "a134d814d6102b2f2ffec92da7fc16561dc12ae0"
+                "reference": "0b1c8267cf9bf48092d655b60ebf62776149f6a5"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1787,7 +1787,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_prototype",
-                "reference": "d04f89e755921dc2dfa297b22c29e0e31d0e0ad4"
+                "reference": "be7df1ec79c4a39bda4d2bd624230c20f09cdacc"
             },
             "require": {
                 "friendsoftypo3/content-blocks": "^1.0",
@@ -1833,10 +1833,13 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_site",
-                "reference": "b1e6332cda5a447384b1b13c8e4b531c67644071"
+                "reference": "d3908f23f0ede3b3dd27ce1d23f20ed7bf1993c0"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
+            },
+            "suggest": {
+                "ps14/ps14_foundation": "^13.0"
             },
             "type": "typo3-cms-extension",
             "extra": {

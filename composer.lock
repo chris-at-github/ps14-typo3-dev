@@ -1699,7 +1699,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_component",
-                "reference": "5458a0a24ed5f12ab2373a872e5f09ed3f657139"
+                "reference": "67f852a36eebaab7998ceeac34a50c6afd6ff5e8"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1833,7 +1833,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_site",
-                "reference": "d3908f23f0ede3b3dd27ce1d23f20ed7bf1993c0"
+                "reference": "d92f1e6dfd33bbabeea5ec08ba7c0aa0cf577cf0"
             },
             "require": {
                 "typo3/cms-core": "^13.4"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7c6bb6d5186c2767080de0f03439ed7",
+    "content-hash": "601ccc7da273b7c38b6ca47ac2a699e3",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1699,7 +1699,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_component",
-                "reference": "67f852a36eebaab7998ceeac34a50c6afd6ff5e8"
+                "reference": "0919e8b135ce08232dac8c6e888c1ce463e13bfa"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1745,7 +1745,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_foundation",
-                "reference": "0b1c8267cf9bf48092d655b60ebf62776149f6a5"
+                "reference": "ba4d5df7cbc48ecb0ab7e6650ef39bf8bb676fbc"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1787,7 +1787,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_prototype",
-                "reference": "be7df1ec79c4a39bda4d2bd624230c20f09cdacc"
+                "reference": "c55c938a2266712fea47c6468b678c5aa20e181b"
             },
             "require": {
                 "friendsoftypo3/content-blocks": "^1.0",
@@ -1833,7 +1833,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_site",
-                "reference": "d92f1e6dfd33bbabeea5ec08ba7c0aa0cf577cf0"
+                "reference": "ca33ecce0b88f486e331136efecad23df1b36de7"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -6167,6 +6167,56 @@
                 }
             ],
             "description": "TYPO3 CMS Filelist - TYPO3 backend module (File>Filelist) used for managing files.",
+            "homepage": "https://typo3.org",
+            "support": {
+                "chat": "https://typo3.org/help",
+                "docs": "https://docs.typo3.org",
+                "issues": "https://forge.typo3.org",
+                "source": "https://github.com/typo3/typo3"
+            },
+            "time": "2025-09-09T08:43:17+00:00"
+        },
+        {
+            "name": "typo3/cms-filemetadata",
+            "version": "v13.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/filemetadata.git",
+                "reference": "e014334f0c72d4850c6a439bb4e57aa25fb5eb43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/filemetadata/zipball/e014334f0c72d4850c6a439bb4e57aa25fb5eb43",
+                "reference": "e014334f0c72d4850c6a439bb4e57aa25fb5eb43",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "13.4.18"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "filemetadata"
+                },
+                "branch-alias": {
+                    "dev-main": "13.4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "TYPO3 CMS File Metadata - Adds additional metadata to file management.",
             "homepage": "https://typo3.org",
             "support": {
                 "chat": "https://typo3.org/help",

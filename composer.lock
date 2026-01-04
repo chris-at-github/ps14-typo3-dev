@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "601ccc7da273b7c38b6ca47ac2a699e3",
+    "content-hash": "26d205b23fb4eed9e7b99eef33f427b6",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1699,7 +1699,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_component",
-                "reference": "0919e8b135ce08232dac8c6e888c1ce463e13bfa"
+                "reference": "acd8f0c49cc34959acdd0a4bd5180fca79a80ce3"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1782,6 +1782,48 @@
             }
         },
         {
+            "name": "ps14/ps14_image",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/ps14_image",
+                "reference": "2a80e045c291497bcd45540970e54f614d50dca9"
+            },
+            "require": {
+                "typo3/cms-core": "^13.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "ps14_image"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ps14\\Image\\": "Classes"
+                }
+            },
+            "license": [
+                "closed"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Pschorr",
+                    "email": "pschorr.christian@gmail.com"
+                }
+            ],
+            "description": "Module to extend the TYPO3 Core image module",
+            "homepage": "http://ps14.de/",
+            "keywords": [
+                "TYPO3",
+                "extension"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "ps14/ps14_prototype",
             "version": "dev-master",
             "dist": {
@@ -1833,13 +1875,14 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_site",
-                "reference": "ca33ecce0b88f486e331136efecad23df1b36de7"
+                "reference": "b19b717a3f14b06fcd71eac5e52a45b8dd64e49c"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
             },
             "suggest": {
-                "ps14/ps14_foundation": "^13.0"
+                "ps14/ps14_foundation": "^13.0",
+                "ps14/ps14_image": "^13.0"
             },
             "type": "typo3-cms-extension",
             "extra": {
@@ -7385,6 +7428,7 @@
     "stability-flags": {
         "ps14/ps14_component": 20,
         "ps14/ps14_foundation": 20,
+        "ps14/ps14_image": 20,
         "ps14/ps14_prototype": 20,
         "ps14/ps14_site": 20
     },

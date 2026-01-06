@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26d205b23fb4eed9e7b99eef33f427b6",
+    "content-hash": "aebce2d8113cd8183250ea4f01523caf",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1699,7 +1699,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_component",
-                "reference": "acd8f0c49cc34959acdd0a4bd5180fca79a80ce3"
+                "reference": "5b09af7e3caf45f7731c76053d5765af38d08b77"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1745,7 +1745,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_foundation",
-                "reference": "ba4d5df7cbc48ecb0ab7e6650ef39bf8bb676fbc"
+                "reference": "41751c3243411d57769fb26c96e30b772c23b09b"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1772,48 +1772,6 @@
             ],
             "description": "Basic TYPO3 extension extending the core functionality of TYPO3 and providing essential website functionalities.",
             "homepage": "https://ps14.de/",
-            "keywords": [
-                "TYPO3",
-                "extension"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
-        },
-        {
-            "name": "ps14/ps14_image",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "./packages/ps14_image",
-                "reference": "2a80e045c291497bcd45540970e54f614d50dca9"
-            },
-            "require": {
-                "typo3/cms-core": "^13.4"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "extension-key": "ps14_image"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ps14\\Image\\": "Classes"
-                }
-            },
-            "license": [
-                "closed"
-            ],
-            "authors": [
-                {
-                    "name": "Christian Pschorr",
-                    "email": "pschorr.christian@gmail.com"
-                }
-            ],
-            "description": "Module to extend the TYPO3 Core image module",
-            "homepage": "http://ps14.de/",
             "keywords": [
                 "TYPO3",
                 "extension"
@@ -1875,7 +1833,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/ps14_site",
-                "reference": "b19b717a3f14b06fcd71eac5e52a45b8dd64e49c"
+                "reference": "f38ba3cca77ef95395aa6227ee0b6da17d655a64"
             },
             "require": {
                 "typo3/cms-core": "^13.4"
@@ -1905,6 +1863,48 @@
                 }
             ],
             "description": "TYPO3 extension for customizing a TYPO3 installation to meet the specific requirements of a customer's website.",
+            "homepage": "http://ps14.de/",
+            "keywords": [
+                "TYPO3",
+                "extension"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "ps14/ps14_textmedia",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/ps14_textmedia",
+                "reference": "ab8ead6665370275da808bc9f2148cb1af5584e0"
+            },
+            "require": {
+                "typo3/cms-core": "^13.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "ps14_textmedia"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ps14\\Textmedia\\": "Classes"
+                }
+            },
+            "license": [
+                "closed"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Pschorr",
+                    "email": "pschorr.christian@gmail.com"
+                }
+            ],
+            "description": "Module to extend the TYPO3 Core image and textpic module",
             "homepage": "http://ps14.de/",
             "keywords": [
                 "TYPO3",
@@ -7428,9 +7428,9 @@
     "stability-flags": {
         "ps14/ps14_component": 20,
         "ps14/ps14_foundation": 20,
-        "ps14/ps14_image": 20,
         "ps14/ps14_prototype": 20,
-        "ps14/ps14_site": 20
+        "ps14/ps14_site": 20,
+        "ps14/ps14_textmedia": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
